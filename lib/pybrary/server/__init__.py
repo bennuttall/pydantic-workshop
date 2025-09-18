@@ -9,7 +9,7 @@ app = FastAPI(title="Pybrary")
 
 @app.get("/")
 def index():
-    return {"Hello": "World"}
+    return {"message": "Hello world"}
 
 
 @app.get("/books/{book_id}")
