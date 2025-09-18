@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "pybrary"
+version = "0.1.0"
+description = ""
+authors = ["Ben Nuttall <ben@bennuttall.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = ">2"
+requests = "^2.32.5"
+pydantic-settings = "^2.10.1"
+fastapi = "^0.116.2"
+typer = "^0.17.4"
+pyyaml = "^6.0.2"
+uvicorn = "^0.35.0"
+
+[project.scripts]
+pybrary = 'pybrary.cli:app'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+target-version = ['py39']
+
+[tool.isort]
+profile = "black"
+lines_after_imports = 2

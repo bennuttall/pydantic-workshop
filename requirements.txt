@@ -1,6 +1,0 @@
-pydantic>2
-requests
-pydantic-settings
-pyyaml
-fastapi
-typer
