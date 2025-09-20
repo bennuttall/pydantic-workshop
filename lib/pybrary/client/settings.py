@@ -4,7 +4,7 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    api_url = "http://localhost:8000"
+    api_url = "http://localhost:9001"
 
 
 @cache

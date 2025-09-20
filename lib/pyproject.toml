@@ -1,18 +1,20 @@
-[tool.poetry]
+[project]
 name = "pybrary"
 version = "0.1.0"
 description = ""
-authors = ["Ben Nuttall <ben@bennuttall.com>"]
+authors = [
+    {name = "Ben Nuttall", email = "ben@bennuttall.com"}
+]
 
-[tool.poetry.dependencies]
-python = "^3.11"
-pydantic = ">2"
-requests = "^2.32.5"
-pydantic-settings = "^2.10.1"
-fastapi = {extras = ["normal"], version = "^0.116.2"}
-typer = "^0.17.4"
-pyyaml = "^6.0.2"
-uvicorn = "^0.35.0"
+dependencies = [
+    "pydantic (>=2)",
+    "requests (>=2.32.5)",
+    "pydantic-settings (>=2.10.1)",
+    "typer (>=0.17.4)",
+    "pyyaml (>=6.0.2)",
+    "uvicorn (>=0.35.0)",
+    "fastapi[normal] (>=0.116.2)",
+]
 
 [project.scripts]
 pybrary = 'pybrary.cli:app'

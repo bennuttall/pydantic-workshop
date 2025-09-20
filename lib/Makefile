@@ -1,2 +1,2 @@
 develop:
-	poetry install
+	pip install -e .

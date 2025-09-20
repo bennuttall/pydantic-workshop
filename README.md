@@ -26,8 +26,8 @@ Pydantic workshop given at PyCon UK 2025
 - You can run a Python program in the terminal or your IDE
 - You have a mechanism for creating virtual environments - and knowing how to activate and connect
   with your IDE
-- Create a virtualenv and run `make develop` at the root of the repo (requires poetry), or run 
-  `pip install -e .` from the `lib` directory
+- Create a virtualenv and run `make develop` at the root of the repo, or run  `pip install -e .`
+  from the `lib` directory
 
 ## vscode
 
