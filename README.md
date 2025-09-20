@@ -49,7 +49,7 @@ installed), disable it, or change the settings in [.vscode/settings.json](.vscod
 
 This workshop is strictly based on Pydantic V2.
 
-If you previously learned Pydantic V2, there are a few differences but it's easy to learn V2 and
+If you previously learned Pydantic V1, there are a few differences but it's easy to learn V2 and
 fairly easy to migrate. See the migration guide:
 [https://docs.pydantic.dev/latest/migration/](https://docs.pydantic.dev/latest/migration/)
 
