@@ -1,10 +1,13 @@
 from functools import cache
 
-from pydantic_settings import BaseSettings
+from pydantic import AnyHttpUrl
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    api_url = "http://localhost:9001"
+    model_config = SettingsConfigDict(env_file=".env", env_prefix="pyb_", extra="ignore")
+
+    api_url: AnyHttpUrl
 
 
 @cache

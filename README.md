@@ -29,6 +29,16 @@ Pydantic workshop given at PyCon UK 2025
 - Create a virtualenv and run `make develop` at the root of the repo, or run  `pip install -e .`
   from the `lib` directory
 
+## Get started
+
+```
+python3 -m venv workshop
+source workshop/bin/activate
+git clone https://github.com/bennuttall/pydantic-workshop/
+cd pydantic-workshop
+make develop
+```
+
 ## vscode
 
 This repo includes vscode settings for automatically formatting your code with Black. This is a
