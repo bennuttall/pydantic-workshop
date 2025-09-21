@@ -74,3 +74,12 @@ V1 syntax, so it's usually a good idea to specify Pydantic V2 when asking for co
 These workshop materials are copyright 2025 Ben Nuttall, licensed under [Creative Commons
 Attribution-ShareAlike 4.0 International (CC BY-SA
 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+## Links
+
+For next steps, refer to the following docs:
+
+- https://docs.pydantic.dev/
+- https://docs.pydantic.dev/latest/concepts/pydantic_settings/
+- https://fastapi.tiangolo.com/
+- https://typer.tiangolo.com/
